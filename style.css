@@ -1,4 +1,72 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
+  background-color: #332d2b;
+}
+
+#main {
+  background-color: #332d2b;
+}
+
+.sec-header {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40pt;
+}
+
+.albums {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.donate{
+  font-size: 27pt;
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.card,
+card-body {
+  margin: 60px;
+  max-width: 430px;
+}
+
+.card-body{
+  background-color: #5b302d;
+}
+
+.send-love{
+  padding-top: 220px;
+  padding-bottom: 50px;  
+}
+
+.recieved{
+  font-size: 10pt;
+  padding-top: 27px;
+  padding-bottom: 10px;
+}
+
+
+
+#send-love #comment{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit{
+  margin-top:10px
+}
+
+#send-love #recieved-list{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: #5b302d;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 5px;
 }
